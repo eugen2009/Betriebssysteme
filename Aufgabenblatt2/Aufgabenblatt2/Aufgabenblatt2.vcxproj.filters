@@ -15,16 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bsp1.c">
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="aufgabe1-3.c">
+    <ClCompile Include="..\..\..\..\..\..\Desktop\Aufgabe2-1.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="aufgabe1-4.c">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="aufgabe1-5.c">
+    <ClCompile Include="..\..\..\..\..\..\Desktop\Aufgabe2-2.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

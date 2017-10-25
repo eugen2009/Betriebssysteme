@@ -26,10 +26,10 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\Aufgabe2-1.c">
+    <ClCompile Include="Aufgabe2-1.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\Aufgabe2-2.c">
+    <ClCompile Include="Aufgabe2-2.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

@@ -150,6 +150,7 @@
     <ClCompile Include="Aufgabe2-1.c" />
     <ClCompile Include="Aufgabe2-2.c" />
     <ClCompile Include="Aufgabe2-3.c" />
+    <ClCompile Include="myfamily.c" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

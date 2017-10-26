@@ -32,5 +32,8 @@
     <ClCompile Include="Aufgabe2-2.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Aufgabe2-3.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

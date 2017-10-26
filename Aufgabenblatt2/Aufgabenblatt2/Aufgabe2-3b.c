@@ -11,7 +11,7 @@ int main() {
 			if (fork() == 0) { //fork beginnt nach der "for"... ein Elternprozess mit 3 Kindern?
 				printf("Kind: PID: %d; PPID: %d\n", getpid(), getppid()); //Ausgabe der Kinder
 			} else {
-				printf("Hello, I'm a Parent with the PID: %d", getpid());
+				printf("Hello, I'm a Parent with the PID: %d\n", getpid());
 			}
 		}
 	}

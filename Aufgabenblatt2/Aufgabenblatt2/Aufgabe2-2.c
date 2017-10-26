@@ -9,8 +9,8 @@ int main() {
 		printf( "Hello, I'm a child. My PID is %d!\n", getpid() );
 		printf( "I'm the child and I'm done!\n");
 	} else {
+		sleep(5);
 		printf( "Waiting for my child to complete!\n");
-		sleep(2);
 		wait( &status);
 		printf( "Hello, I'm a parent. My PID is %d!\n", getpid() );
 		printf( "Status of my child: %d\n", WEXITSTATUS(status));

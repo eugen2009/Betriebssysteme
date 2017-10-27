@@ -8,19 +8,19 @@ int main() {
 	int PID = getpid();
 	printf("Hello, I'm a Parent with the PID: %d\n", getpid());
 	int i;
-	for (i = 0; i < 3; i++) { // 3maliges ausführen
-		if (getpid() == PID && fork() == 0) { //fork beginnt nach der "for"... ein Elternprozess mit 3 Kindern?
-				printf("Kind: PID: %d; PPID: %d\n", getpid(), getppid()); //Ausgabe der Kinder
+	for (i = 0; i < 3; i++) {
+		if (getpid() == PID && fork() == 0) {
+				printf("Child: PID: %d; PPID: %d\n", getpid(), getppid());
 		}
 	}
-	sleep(1); //warten auf start von jedem prozess
+	sleep(1);
 	int status;
-	if (getpid() == PID) printf("I'm the parent (with the PID: %d) and im waiting for my child\n", getpid());
+	if (getpid() == PID) printf("I'm the parent (with the PID: %d) and im waiting for my child(ren) to complete\n", getpid());
 	wait(&status);
 	if (getpid() == PID) {
 		printf("I'm parent");
 	} else {
 		printf("I'm child");
 	}
-	printf(" with the PID: %d\n", getpid());
+	printf(" with the PID: %d and I'm done.\n", getpid());
 }

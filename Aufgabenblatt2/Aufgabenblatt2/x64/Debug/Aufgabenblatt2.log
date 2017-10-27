@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  myfamily.c
+c:\users\konst\onedrive\dokumente\studium\betriebssysteme\github\aufgabenblatt2\aufgabenblatt2\myfamily.c(18): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "stdafx.h"" einzufügen?
+  Aufgabe2-3b.c
+c:\users\konst\onedrive\dokumente\studium\betriebssysteme\github\aufgabenblatt2\aufgabenblatt2\aufgabe2-3b.c(27): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "stdafx.h"" einzufügen?
+  Aufgabe2-2.c
+c:\users\konst\onedrive\dokumente\studium\betriebssysteme\github\aufgabenblatt2\aufgabenblatt2\aufgabe2-2.c(20): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "stdafx.h"" einzufügen?
+  Aufgabe2-1.c
+c:\users\konst\onedrive\dokumente\studium\betriebssysteme\github\aufgabenblatt2\aufgabenblatt2\aufgabe2-1.c(20): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "stdafx.h"" einzufügen?
+  Code wird generiert...

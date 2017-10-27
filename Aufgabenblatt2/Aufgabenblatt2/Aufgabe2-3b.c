@@ -15,7 +15,7 @@ int main() {
 	}
 	sleep(1); //warten auf start von jedem prozess
 	int status;
-	//waitpid(-1, &status, 0);
+	if (getpid() == PID) printf("I'm the parent (with the PID: %d) and im waiting for my child\n", getpid());
 	wait(&status);
 	if (getpid() == PID) {
 		printf("I'm parent");

@@ -18,9 +18,9 @@ int main() {
 	//waitpid(-1, &status, 0);
 	wait(&status);
 	if (getpid() == PID) {
-		printf("I'm Parent");
+		printf("I'm parent");
 	} else {
 		printf("I'm child");
 	}
-	printf("... und tschüss.\n"); //Parent/Child verabschiedet sich
+	printf(" with the PID: %d\n", getpid());
 }

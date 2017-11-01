@@ -38,5 +38,14 @@
     <ClCompile Include="Aufgabe2-3b.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Aufgabe2-5.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe2-5a.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Aufgabe2-5b.c">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -30,24 +30,24 @@ void *createThread(void *input) {
 		if(curThread < MAX_THREAD) {
 			curThread++;  
 			if (tcount == 0){
-				struct input *i;
-                        	i->num = (int) rand()%10;
-                        	i->cT = curThread;
-			        pthread_create(&p1, NULL, createThread, &i);
+				struct input first;
+                        	first.num = (int) rand()%10;
+                        	first.cT = curThread;
+			        pthread_create(&p1, NULL, createThread, &first);
 			}
 			else {
-				struct input *sec;
-                        	sec->num = (int) rand()%10;
-                        	sec->cT = curThread;
+				struct input sec;
+                        	sec.num = (int) rand()%10;
+                        	sec.cT = curThread;
 				pthread_create(&p2, NULL, createThread, &sec);
 			}
 		}
 		pthread_mutex_unlock(&mutex);
                 tcount++;
  	}
-		 pthread_join(p1, NULL);
-		 pthread_join(p2, NULL);
-        printf("Bye from thread No. %d!\n", actual);
+	 pthread_join(p1, NULL);
+	 pthread_join(p2, NULL);
+         printf("Bye from thread No. %d!\n", actual);
 }
 
 int main() {

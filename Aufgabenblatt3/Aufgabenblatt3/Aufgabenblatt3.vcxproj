@@ -150,6 +150,11 @@
     <ClCompile Include="..\Aufgabe3-1.c" />
     <ClCompile Include="..\Aufgabe3-2.c" />
     <ClCompile Include="..\Aufgabe3-3.c" />
+    <ClCompile Include="..\Aufgabe3-3a.c" />
+    <ClCompile Include="..\Aufgabe3-3b.c" />
+    <ClCompile Include="..\Aufgabe3-3mitStruct.c" />
+    <ClCompile Include="..\Aufgabe3-3struct.c" />
+    <ClCompile Include="..\Aufgabe3-4.c" />
     <ClCompile Include="Aufgabenblatt3.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
